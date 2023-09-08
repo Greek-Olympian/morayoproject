@@ -1,0 +1,66 @@
+#mum{
+    display: flex;
+    gap: 900px;
+    background-color: lightseagreen;
+}
+ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+#button{
+    background-color: black;
+    color: lightseagreen;
+}
+#death{
+    text-align: center;
+    /* background-image: url(../images/Balance\(magazine\)-01-2.3.001-bigpicture_01_4.jpg); */
+    background-size: 500px;
+}
+footer{
+    color: white;
+    background-color: lightseagreen;
+    padding-top: 100px;
+}
+#peter{
+    display: flex;
+    gap: 100px;
+    padding-left: 250px;
+    padding-top: 5px;
+}
+#tech{
+    width: 300px;
+    background-color: rgb(7, 190, 181);
+    padding: 20px;
+    border-radius: 5px;
+    height: 300px;
+}
+#entutiast{
+    width: 300px;
+    background-color: rgb(7, 190, 181);
+    padding: 20px;
+    border-radius: 5px;
+    height: 300px;
+}
+#hobbs{
+    padding-left: 550px;
+}
+@media(max-width:425px){
+    #mum{
+        gap: 150px;
+    }
+    ul{
+        display: block;
+    }
+    #peter{
+        padding-left: 0px;
+        gap: 50px;
+    }
+    #hobbs{
+        padding-left: 50px;
+    }
+}

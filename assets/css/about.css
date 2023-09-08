@@ -1,0 +1,96 @@
+#mum{
+    display: flex;
+    gap: 900px;
+    border-radius: 3px;
+    background-color: lightseagreen;
+    padding: 5px;
+}
+#dad{
+    display: flex;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+#button{
+    background-color: black;
+    color: lightseagreen;
+}
+#anjola{
+    /* width: 600px; */
+    text-align: center;
+    border-radius: 5px;
+    padding-top: 30px;
+    background-image: url(../images/Balance\(magazine\)-01-2.3.001-bigpicture_01_4.jpg);
+    background-size: cover;
+}
+#people{
+    height: 390px;
+    width: 300px;
+    border:5px solid;
+    border-color: lightseagreen;
+    border-radius: 10px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+#evil{
+    border: 5px solid;
+    border-radius: 10px;
+    border-color: lightseagreen;
+}
+#anjola{
+    
+}
+.fool{
+    font-size: 20px;
+}
+footer{
+    color: white;
+    background-color: lightseagreen;
+    padding-top: 100px;
+}
+#peter{
+    display: flex;
+    gap: 100px;
+    padding-left: 250px;
+    padding-top: 5px;
+}
+#tech{
+    width: 300px;
+    background-color: rgb(7, 190, 181);
+    padding: 20px;
+    border-radius: 5px;
+    height: 300px;
+}
+#entutiast{
+    width: 300px;
+    background-color: rgb(7, 190, 181);
+    padding: 20px;
+    border-radius: 5px;
+    height: 300px;
+}
+#hobbs{
+    padding-left: 550px;
+}
+@media(max-width:425px){
+    #mum{
+        gap: 150px;
+
+    }
+    ul{
+        display: block;
+    }
+    #anjola{
+        color: white;
+    }
+    #peter{
+        padding-left: 0px;
+        gap: 50px;
+    }
+    #hobbs{
+        padding-left: 50px;
+    }
+}

@@ -1,0 +1,130 @@
+body{
+    background-color: lightseagreen;
+    animation-name: none;
+    animation-duration: 13s;
+    animation-iteration-count:infinite ;
+}
+ form{
+    max-width: 600px;
+    justify-content: center;
+}
+.God{
+    text-align: center;
+}
+#button{
+    width: 120px;
+}
+.form-groups{
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+input{
+    width: 300px;
+    border-color: darkorchid;
+    border-radius: 5px;
+}
+.button{
+    padding: 5px 10px;
+    border-color: darkorchid;
+    border-radius: 10px;
+    width: 70px;
+    margin-left: 100px;
+    background-color: darkorchid;
+}
+.button2{
+    padding: 5px 10px;
+    border-color: darkorchid;
+    border-radius: 5px;
+    width: 250px;
+    background-color: darkorchid;
+}
+footer{
+    display: flex;
+    border-top: 2px solid #57b1dc;
+   text-align: center;
+}
+footer img{
+    margin-left: .5em;
+    margin-right: .5em;
+}
+.dog{
+    width: 350px;
+    display: block;
+    margin-left: 500px;
+    margin-right: 250px;
+}
+h1{
+    text-align: center;
+}
+footer{
+    display: block;
+}
+
+#peter{
+    display: flex;
+    gap: 900px;
+    background-color: lightseagreen;
+    border-radius: 5px;
+    color: white;
+}
+ul{
+    display: flex;
+    gap: 20px;
+}
+#mum{
+    gap: 450px;
+}
+#dad{
+    display: flex;
+}
+
+@keyframes anime{
+    10%{border-color:white}
+     100%{background-color: yellow;}
+    0%{background-color: gold;}
+    25%{background-color: blueviolet;}
+    50%{background-color: red;}
+    75%{background-color: lime; color: blue;}
+    100%{background-color: green;}
+    100%{background-color: yellow;}
+}
+@media (max-width:425px){
+    .dog{
+        display: block;
+        background-color: lightseagreen;
+        margin-left: 10px;
+        margin-right: 300px;
+        width: 350px;
+    }
+    #peter{
+        gap: 150px;
+    }
+    ul{
+        display: block;
+    }
+    footer{
+        margin-right: 150px;
+    }
+
+    footer{
+        display: block;
+        /* margin-left: 100px; */
+    }
+    form{
+        
+        margin-left: 200px;
+    }
+    
+    h1{
+        margin-left: 10px;
+        margin-right: 200px;
+    }
+    body{
+        margin: 0px;
+    }
+}
